@@ -140,10 +140,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ReportAsistenciaEstudiante.rdlc" />
-    <EmbeddedResource Include="ReportBoletin.rdlc" />
-    <EmbeddedResource Include="ReportMateriasOfertadas.rdlc" />
-    <EmbeddedResource Include="ReportNotasMateriasCursadas.rdlc" />
+    <Content Include="ReportAsistenciaEstudiante.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportBoletin.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportMateriasOfertadas.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportNotasMateriasCursadas.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <EmbeddedResource Include="VerReportes.resx">
       <DependentUpon>VerReportes.cs</DependentUpon>
     </EmbeddedResource>

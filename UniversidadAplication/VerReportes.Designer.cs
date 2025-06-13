@@ -159,7 +159,7 @@ namespace UniversidadAplication
             this.numMateria = new System.Windows.Forms.NumericUpDown();
             this.numEstudiante = new System.Windows.Forms.NumericUpDown();
 
-            this.cboSemestre.Items.AddRange(new object[] { "1er Semestre", "2do Semestre" });
+            this.cboSemestre.Items.AddRange(new object[] { "1S", "2S" });
             this.cboSemestre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 
 
