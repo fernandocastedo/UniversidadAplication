@@ -84,7 +84,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetNotasMateriasCursadas.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frmReporteAsistenciaEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteAsistenciaEstudiante.Designer.cs">
+      <DependentUpon>frmReporteAsistenciaEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteBoletin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteBoletin.Designer.cs">
+      <DependentUpon>frmReporteBoletin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteMateriasOfertadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteMateriasOfertadas.Designer.cs">
+      <DependentUpon>frmReporteMateriasOfertadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteNotasMateriasCursadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteNotasMateriasCursadas.Designer.cs">
+      <DependentUpon>frmReporteNotasMateriasCursadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="gdatos.cs" />
+    <Compile Include="ReportManager.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="VerReportes.cs">
       <SubType>Form</SubType>
@@ -94,6 +119,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmReporteAsistenciaEstudiante.resx">
+      <DependentUpon>frmReporteAsistenciaEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteBoletin.resx">
+      <DependentUpon>frmReporteBoletin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteMateriasOfertadas.resx">
+      <DependentUpon>frmReporteMateriasOfertadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteNotasMateriasCursadas.resx">
+      <DependentUpon>frmReporteNotasMateriasCursadas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
