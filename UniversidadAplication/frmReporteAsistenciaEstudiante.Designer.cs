@@ -28,55 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.dataSetAsistenciaEstudiante = new UniversidadAplication.DataSetAsistenciaEstudiante();
-            this.spReporteAsistenciaMateriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sp_ReporteAsistenciaMateriaTableAdapter = new UniversidadAplication.DataSetAsistenciaEstudianteTableAdapters.sp_ReporteAsistenciaMateriaTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetAsistenciaEstudiante)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spReporteAsistenciaMateriaBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSetAsistenciaEstudiante";
-            reportDataSource1.Value = this.spReporteAsistenciaMateriaBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "UniversidadAplication.ReportAsistenciaEstudiante.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(800, 450);
-            this.reportViewer1.TabIndex = 0;
-            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
-            // 
-            // dataSetAsistenciaEstudiante
-            // 
-            this.dataSetAsistenciaEstudiante.DataSetName = "DataSetAsistenciaEstudiante";
-            this.dataSetAsistenciaEstudiante.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // spReporteAsistenciaMateriaBindingSource
-            // 
-            this.spReporteAsistenciaMateriaBindingSource.DataMember = "sp_ReporteAsistenciaMateria";
-            this.spReporteAsistenciaMateriaBindingSource.DataSource = this.dataSetAsistenciaEstudiante;
-            // 
-            // sp_ReporteAsistenciaMateriaTableAdapter
-            // 
-            this.sp_ReporteAsistenciaMateriaTableAdapter.ClearBeforeFill = true;
             // 
             // frmReporteAsistenciaEstudiante
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.reportViewer1);
+            this.ClientSize = new System.Drawing.Size(282, 253);
             this.Name = "frmReporteAsistenciaEstudiante";
-            this.Text = "frmReporteAsistenciaEstudiante";
-            this.Load += new System.EventHandler(this.frmReporteAsistenciaEstudiante_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetAsistenciaEstudiante)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spReporteAsistenciaMateriaBindingSource)).EndInit();
+            this.Load += new System.EventHandler(this.frmReporteAsistenciaEstudiante_Load_1);
             this.ResumeLayout(false);
 
         }

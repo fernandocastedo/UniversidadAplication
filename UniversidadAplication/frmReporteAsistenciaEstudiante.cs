@@ -52,5 +52,14 @@ namespace UniversidadAplication
                 MessageBox.Show("Error al cargar el reporte de asistencia: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+            // Si no necesitas lógica especial, basta refrescar el control.
+            this.reportViewer1.RefreshReport();
+        }
+        private void frmReporteAsistenciaEstudiante_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
